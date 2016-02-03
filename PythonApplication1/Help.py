@@ -1,0 +1,3 @@
+import pydoc
+print (help)
+

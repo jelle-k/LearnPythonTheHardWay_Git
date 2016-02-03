@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>bf7ed7e2-96a4-4b3f-83c3-691c9e4fc68c</ProjectGuid>
+    <ProjectHome>
+    </ProjectHome>
+    <StartupFile>Exercise13_Couldn't get it to work.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>Learn Python the Hard Way</Name>
+    <RootNamespace>PythonApplication1</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Exercise14.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="playArea.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Help.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Exercise04_1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Exercise01.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Exercise02.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Exercise03_2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Exercise03_1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Exercise04_2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Exercise05_1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Exercise06.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Exercise07.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Exercise08_1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Exercise09.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Exercise10_1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Exercise10_2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Exercise11.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Exercise12.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Exercise13_Couldn%27t get it to work.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
+  </PropertyGroup>
+  <Import Condition="Exists($(PtvsTargetsFile))" Project="$(PtvsTargetsFile)" />
+  <Import Condition="!Exists($(PtvsTargetsFile))" Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
