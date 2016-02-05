@@ -1,3 +1,3 @@
 import pydoc
-print (help)
+print ()
 
