@@ -6,7 +6,7 @@
     <ProjectGuid>bf7ed7e2-96a4-4b3f-83c3-691c9e4fc68c</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>Exercise13_Couldn't get it to work.py</StartupFile>
+    <StartupFile>Exercise14.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -77,7 +77,7 @@
     <Compile Include="Exercise12.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Exercise13_Couldn%27t get it to work.py">
+    <Compile Include="Exercise13.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
